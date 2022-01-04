@@ -1,0 +1,38 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "check-virtio.sh",
+      "url": "https://raw.githubusercontent.com/Jason98881/virtio/master/src/check-virtio.sh",
+      "sha256": "9e7bee7458b673a85bf2b3794696dd47fec9c19ce08ca485fb29fdb5f78f6583",
+      "packed": false
+    },
+    {
+      "name": "virtio-4.4.180p.tgz",
+      "url": "https://raw.githubusercontent.com/Jason98881/virtio/master/releases/virtio-4.4.180p.tgz",
+      "sha256": "005be9b9bab38582950d4b85680206fe68f36bba7be0e87a7ca089ace50b0452",
+      "packed": true
+    }
+  ],
+
+  "kmods": {
+	"9p.ko": "",
+	"9pnet.ko": "",
+	"9pnet_virtio.ko": "",
+	"virtio-rng.ko": "",
+	"virtio.ko": "",
+	"virtio_balloon.ko": "",
+	"virtio_blk.ko": "",
+	"virtio_input.ko": "",
+	"virtio_mmio.ko": "",
+	"virtio_net.ko": "",
+	"virtio_pci.ko": "",
+	"virtio_ring.ko": "",
+	"virtio_scsi.ko": ""
+  },
+
+  "scripts": {
+    "check_kmod": "check-virtio.sh"
+  }
+}
