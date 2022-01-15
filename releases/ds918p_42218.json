@@ -17,19 +17,17 @@
   ],
 
   "kmods": {
-	"9p.ko": "",
+	"virtio.ko": "",
+	"virtio_ring.ko": "",
+	"virtio_mmio.ko": "",
+	"virtio_pci.ko": "",
+	"virtio_blk.ko": "",
+	"virtio_net.ko": "",
+	"virtio_scsi.ko": "",
+	"virtio_input.ko": "",
 	"9pnet.ko": "",
 	"9pnet_virtio.ko": "",
-	"virtio-rng.ko": "",
-	"virtio.ko": "",
-	"virtio_balloon.ko": "",
-	"virtio_blk.ko": "",
-	"virtio_input.ko": "",
-	"virtio_mmio.ko": "",
-	"virtio_net.ko": "",
-	"virtio_pci.ko": "",
-	"virtio_ring.ko": "",
-	"virtio_scsi.ko": ""
+	"9p.ko": ""
   },
 
   "scripts": {
